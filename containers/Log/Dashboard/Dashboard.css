@@ -1,0 +1,70 @@
+.Dashboard{
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: auto;
+}
+.Dashboard h3{
+  font-size: 2rem;
+}
+.Dashboard p{
+  font-size: 1rem;
+  margin: 5px 0
+}
+.Dashboard strong{
+  display: block;
+  margin: 10px 0;
+  font-size: 1rem
+}
+.Dashboard strong i{
+  width: 3%;
+}
+
+@media(max-width: 768px){
+  .Dashboard{
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    /* margin: auto; */
+  }
+  .Dashboard h3{
+    font-size: 0.8rem;
+  }
+  .Dashboard p{
+    font-size: 0.7rem;
+    /* margin: 5px 0 */
+  }
+  .Dashboard strong{
+    /* display: block; */
+    /* margin: 10px 0 */
+    font-size: 0.7rem
+  }
+  .Dashboard strong i{
+    width: 10%;
+  }
+}
+table {
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  border: 1px solid #dddddd;
+  /* text-align: left; */
+  padding: 8px;
+  font-size: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #E88440;
+}
+
+@media(max-width: 768px){
+  td, th {
+    /* text-align: center; */
+    /* border: 1px solid #dddddd; */
+    /* text-align: left; */
+    padding: 4px;
+    font-size: 0.5rem;
+  } 
+}

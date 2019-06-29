@@ -1,0 +1,15 @@
+.Ordersummary{
+  /* border: 1px solid red; */
+}
+.Ordersummary p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.Ordersummary ul{
+  /* list-style: none; */
+}
+.Ordersummary ul li{
+  margin-left: 30px;
+  font-size: 0.9rem;
+  font-weight: bold
+}
